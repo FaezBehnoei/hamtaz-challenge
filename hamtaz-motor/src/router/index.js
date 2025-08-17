@@ -41,6 +41,10 @@ const routes = [
         component: () => import('../view/SingleItemView.vue')
       }
     ]
+  },
+  {
+    path: '/404',
+    component: () => import('../view/404Page.vue')
   }
 ]
 
